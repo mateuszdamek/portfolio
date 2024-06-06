@@ -6,6 +6,8 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
+import hackerrankDark from '../../assets/hr-light.svg';
+import hackerrankLight from '../../assets/hr-dark.svg';
 import CV from '../../assets/CV_Mateusz.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
@@ -15,6 +17,8 @@ function Hero() {
   const themeIcon = theme === 'light' ? sun : moon;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+  const hackerrankIcon = theme === 'light' ? hackerrankLight : hackerrankDark;
+
 
   return (
     <section id="hero" className={styles.container}>
@@ -44,6 +48,9 @@ function Hero() {
           </a>
           <a href="https://www.linkedin.com/in/mateusz-damek-712b11256/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
+          </a>
+          <a href="https://www.hackerrank.com/profile/mateuszdamek" target="_blank">
+            <img src={hackerrankIcon} alt="Hackerrank icon" />
           </a>
         </span>
         <p className={styles.description}>
