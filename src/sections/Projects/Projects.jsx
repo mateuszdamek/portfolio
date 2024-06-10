@@ -1,5 +1,5 @@
 import styles from './ProjectsStyles.module.css';
-import plant from '../../assets/762352_cute-flower-png.png';
+import travel from '../../assets/travel-agency.svg';
 import todoimg from '../../assets/todoimg.png';
 import scrapp from '../../assets/scrapp.png';
 import event from '../../assets/event-management-icon.png';
@@ -14,13 +14,13 @@ function Projects() {
           src={todoimg}
           link="https://github.com/mateuszdamek/todo-app"
           h3="todo-app"
-          p="Tasking App"
+          p="Tasking React.js"
         />
         <ProjectCard
-          src={plant}
-          link="https://github.com/mateuszdamek/plant_watering_app"
-          h3="plant-watering-app"
-          p="Plant Care App"
+          src={travel}
+          link="https://github.com/mateuszdamek/travel"
+          h3="travel-agency"
+          p="ASP.NET application"
         />
         <ProjectCard
           src={scrapp}
@@ -32,7 +32,7 @@ function Projects() {
           src={event}
           link="https://github.com/mateuszdamek/Event_managment_site"
           h3="event-managment"
-          p="Website to manage events"
+          p="Python/React.js"
         />
       </div>
     </section>
