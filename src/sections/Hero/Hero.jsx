@@ -41,7 +41,7 @@ function Hero() {
           <br />
           Damek
         </h1>
-        <h2>Data Analyst</h2>
+        <h2>Fullstack Developer</h2>
         <span>
           <a href="https://github.com/mateuszdamek" target="_blank">
             <img src={githubIcon} alt="Github icon" />
@@ -54,8 +54,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-        With a passion for analyzing data for commercial applications and improvement.
-        </p>
+        Creating comprehensive solutions by seamlessly integrating front-end and back-end to deliver fully functional applications.        </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
