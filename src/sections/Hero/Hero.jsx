@@ -8,7 +8,7 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import hackerrankDark from '../../assets/hr-light.svg';
 import hackerrankLight from '../../assets/hr-dark.svg';
-import CV from '../../assets/CV_Damek.pdf';
+import CV from '../../assets/CV_Mateusz_Damek.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
